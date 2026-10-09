@@ -1,0 +1,12 @@
+# Ignore generated Python cache files
+__pycache__/
+*.py[cod]
+
+# Local comparison output
+pipe_invert_diameter_check.csv
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
