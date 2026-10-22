@@ -1,11 +1,29 @@
-# Ignore generated Python cache files
+# Python caches
 __pycache__/
 *.py[cod]
 
-# Local comparison output
-pipe_invert_diameter_check.csv
+# Generated ArcMap metadata
+*.pyt.xml
 
-# Editor / OS files
+# Local reports and project data
+*.csv
+*.shp
+*.shx
+*.dbf
+*.sbn
+*.sbx
+*.prj
+*.cpg
+*.shp.xml
+*.sqlite
+*.sqlite-*
+*.mupp
+*.m21fm
+*.nwk11
+*.nwk
+*.mxd
+
+# Editor and OS files
 .DS_Store
 Thumbs.db
 .vscode/
